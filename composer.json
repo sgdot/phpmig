@@ -15,13 +15,13 @@
         "email": "david@panmedia.co.nz"
     }],
     "require": {
-        "php": ">=7.1",
-        "symfony/console": "^2.0||^3.0||^4.0||^5.0",
-        "symfony/config": "^2.0||^3.0||^4.0||^5.0"
+        "php": ">=8.1",
+        "symfony/console": "^6.0",
+        "symfony/config": "^6.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^7.5||^8.5||^9.2",
-        "mockery/mockery": "*@dev"
+        "phpunit/phpunit": "^9.6",
+        "mockery/mockery": "^1.5"
     },
     "suggest": {
         "pimple/pimple": "Pimple allows to bootstrap phpmig really easily.",
